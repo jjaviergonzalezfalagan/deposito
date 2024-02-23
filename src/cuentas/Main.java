@@ -1,11 +1,34 @@
 package cuentas;
 
+/**
+ * 
+ * Clase principal (por defecto).
+ * @author Javier González Falagán - ue47292@edu.xunta.gal
+ * @version 1.0.
+ */
 public class Main {
-
+    
+    /**
+     *
+     * Método por defecto.
+     * 
+     * @param args Argumentos pasados como parámetro que va a 
+     * manejar el método 'main'.
+     * @param cantidad Valor de la cantidad que va a manejar el 
+     * método 'main'.
+     */
     public static void main(String[] args, float cantidad) {
         operativa_cuenta(cantidad);
     }
-
+    
+    /**
+     * 
+     * Realiza diversas acciones sobre una cuenta a partir de una cantidad
+     * que se le pasa como parámetro.
+     * 
+     * @param cantidad Valor de la cantidad que va a manejar el método 
+     * 'operativa_cuenta'.
+     */
     private static void operativa_cuenta(float cantidad) {
         CCuenta cuenta1;
         double saldoActual;
