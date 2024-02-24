@@ -3,6 +3,7 @@ package cuentas;
 /**
  * 
  * Clase principal (por defecto).
+ * 
  * @author Javier González Falagán - ue47292@edu.xunta.gal
  * @version 1.0.
  */
